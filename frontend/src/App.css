@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+  background-color: #ffffff; /* Ensure there's no background color if you want it transparent */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 6vmin; /* Smaller logo size */
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 15vh; /* Reduced header height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: black; /* Changed to black for better visibility */
+  margin-top: 5px;
+  margin-bottom: 10px; /* Moves content a bit up */
+}
+
+.input-container {
+  margin: 10px; /* Adjusted margin */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input {
+  margin: 5px; /* Adjusted margin */
+  padding: 10px;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 400px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px; /* Adjusted margin */
+}
+
+.checkbox-container label {
+  margin: 2px 0; /* Adjusted margin */
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 5px; /* Adjusted margin */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nft-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px; /* Adjusted margin */
+}
+
+.nft-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px; /* Adjusted margin */
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+
+.nft-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.nft-card p {
+  margin: 5px 0;
+}
+
+.token-info {
+  max-height: 60px;
+  overflow-y: auto;
+}
+
+.cursor-container {
+  margin: 10px; /* Adjusted margin */
+}
+
+textarea {
+  width: 80%;
+  max-width: 400px;
+  height: 100px;
+  margin: 5px; /* Adjusted margin */
+  padding: 10px;
+  font-size: 1rem;
+  resize: none;
+}
+
+.cursor-container button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 5px; /* Adjusted margin */
+  cursor: pointer;
+  border-radius: 5px;
+}
